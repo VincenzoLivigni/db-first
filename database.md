@@ -13,6 +13,7 @@
 - description - TEXT - NULL 
 - year - YEAR - NOT NULL
 - kms - INT - NOT NULL
+- price - INT - NOT NULL
 - seats - INT - NOT NULL
 - doors - INT - NOT NULL
 - transmission - VARCHAR(20) - NULL
@@ -20,6 +21,7 @@
 - availability - TINYINT - DEFAULT(0)
 - color - VARCHAR(30) - NULL
 - rating - FLOAT (2,1) - NULL
+- image - VARCHAR(255) - NULL
 - created_at - DATETIME - DEFAULT(now())
 - update_at - DATETIME - DEFAULT(now())
 
