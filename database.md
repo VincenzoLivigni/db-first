@@ -13,7 +13,7 @@
 - description - TEXT - NULL 
 - year - YEAR - NOT NULL
 - kms - INT - NOT NULL
-- price - INT - NOT NULL
+- price - DECIMAL(10,2) - NOT NULL
 - seats - INT - NOT NULL
 - doors - INT - NOT NULL
 - transmission - VARCHAR(20) - NULL
